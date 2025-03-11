@@ -11,7 +11,7 @@ body{
 /* Layout */
 
 main{
-    height: calc(103vh - 120px);
+    height: calc(100vh - 120px);
     background-color: rgb(22, 27, 38);
     display: flex;
 }
@@ -356,4 +356,83 @@ hr{
     display: flex;
     gap: 10px;
     padding-left: 50px;
+}
+
+.music-player {
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-time {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.music-player .fa-solid {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.music-player .fa-regular {
+    font-size: 35px;
+    padding: 10px 20px 10px 20px;
+}
+
+.music-time span {
+    color: white;
+    font-weight: 700;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.music-line {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    height: 6px;
+    border-radius: 10px;
+    background-color: rgb(103, 103, 103);
+}
+
+.music-line-mini {
+    width: 20%;
+    height: 6px;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+.white-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: white;
+    display: none;
+}
+
+.pl-20{
+    padding-left: 20px;
+}
+
+.volume-line {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.volume-line-mini {
+    width: 40px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: lightgrey;
 }
