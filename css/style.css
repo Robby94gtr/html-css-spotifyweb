@@ -31,6 +31,14 @@ sidebar{
     max-height: 100%;
 }
 
+footer {
+    height: 120px;
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
 .sidebar-container{
     height: 92vh;
 }
@@ -92,6 +100,27 @@ flex-wrap: wrap;
     text-underline-offset: 6px;
     text-decoration-thickness: 2px;
     text-decoration-color: #ADFF2F;
+}
+
+.col-left {
+    width: 250px;
+    padding: 25px 0px 25px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.col-mid {
+    width: 100%;
+    text-align: center;
+}
+
+.col-right {
+    width: 250px;
+    padding: 25px 10px 25px 0px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
 }
 
 /* sidebar */
@@ -308,4 +337,23 @@ hr{
 
 .pop-cards img{
     border-radius: 50%;
+}
+
+
+
+.col-left img {
+    width: 60px;
+    height: 60px;
+}
+
+.col-text {
+    padding-left: 10px;
+}
+
+.col-icon {
+    color: grey;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    padding-left: 50px;
 }
