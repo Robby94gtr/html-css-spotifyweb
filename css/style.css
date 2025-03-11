@@ -3,3 +3,118 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+/* Layout */
+
+main{
+    height: calc(100vh - 100px);
+    display: flex;
+}
+
+header{
+    max-width: 250px;
+    background-color: #000;
+    max-height: 100%;
+}
+
+.header-container{
+    height: 92vh;
+}
+ 
+
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.direction-column{
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-content: center;
+    align-items: center;
+}
+
+/* header */
+
+#logo{
+    height: 100px;
+    padding: 20px;
+}
+
+#logo img{
+    height: 100%;
+}
+
+.border-l-green{
+    border-left: 1px solid greenyellow;
+}
+
+
+#list-header{
+    padding: 10px 0;
+    color: #6C6F74;
+    font-weight: 600;
+}
+
+ li{
+    padding: 5px 20px;
+}
+
+ li a{
+    display: flex;
+    align-items: center
+}
+
+ ul li a div{
+    display: inline-block;
+}
+
+#list-header > li > a > div {
+    display: inline-block;
+    height: 30px;
+}
+
+ li > a > div img {
+    height: 100%;
+    margin-right: 5px;
+}
+
+.list-label{
+    padding: 5px 0;
+}
+
+.playlist-title{
+    font-weight: bold;
+    padding: 5px 20px;
+}
