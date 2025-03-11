@@ -62,6 +62,12 @@ h2{
     font-size: 40px;
 }
 
+
+.font-size{
+    font-size: 1.4vw;
+    display: flex;
+}
+
 .d-flex{
     display: flex;
 }
@@ -124,6 +130,18 @@ flex-wrap: wrap;
 }
 
 /* sidebar */
+
+.hide-logo{
+    display: none;
+}
+
+.hide-home{
+    display: none;
+}
+
+.show-home{
+    display: block;
+}
 
 #logo{
     height: 100px;
@@ -310,6 +328,7 @@ hr{
     text-align: center;
 }
 
+
 .card-square {
     position: relative;
     width: 100%;
@@ -318,6 +337,7 @@ hr{
 .card img {
     width: 100%;
 }
+
 
 .main-container h3 {
     padding-top: 20px;
@@ -435,4 +455,90 @@ hr{
     height: 6px;
     border-radius: 10px;
     background-color: lightgrey;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width: 1200px) {
+    .card{
+        width: 23%;
+    }
+
+    .recently-cards{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .card{
+        width: 48%;
+    }
+
+    .recently-cards{
+        flex-wrap: wrap;
+    }
+
+    .col-icon{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hide-logo{
+        display: block;
+    }
+
+    .logo{
+        width: 40px;
+        padding: 0px;
+        margin: 20px 0px 20px 15px;
+    }
+
+    sidebar{
+        width: 13.8vw;
+    }
+
+    .content{
+        width: calc(100% - 70px);
+    }
+
+    .show-home{
+        display: none;
+    }
+
+    .hide-home{
+        display: block;
+    }
+
+    /* #list-sidebar > li > a > div {
+        display: none;
+    } */
+
+    .hide{
+        display: none;
+    }
+
+    .fa-shuffle{
+        display: none;
+    }
+
+    .fa-rotate-right{
+        display: none;
+    }
+
+    .fa-list{
+        display: none;
+    }
+
+    .fa-display{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .hide-xs{
+        display: none;
+    }
 }
