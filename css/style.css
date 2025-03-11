@@ -11,20 +11,34 @@ body{
 /* Layout */
 
 main{
-    height: calc(100vh - 100px);
+    height: calc(103vh - 120px);
+    background-color: rgb(22, 27, 38);
     display: flex;
 }
 
-header{
+header {
+    position: sticky;
+    height: 100px;
+    background-color: rgb(15, 20, 34);
+    top: 0;
+    z-index: 1;
+}
+
+
+sidebar{
     max-width: 250px;
     background-color: #000;
     max-height: 100%;
 }
 
-.header-container{
+.sidebar-container{
     height: 92vh;
 }
- 
+
+.content{
+    width: calc(100% - 250px);
+    overflow-y: auto;
+}
 
 
 ul{
@@ -38,6 +52,10 @@ h1{
 
 .d-flex{
     display: flex;
+}
+
+.flex-wrap{
+flex-wrap: wrap;
 }
 
 .direction-column{
@@ -65,7 +83,14 @@ h1{
     align-items: center;
 }
 
-/* header */
+.green-underline {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #ADFF2F;
+}
+
+/* sidebar */
 
 #logo{
     height: 100px;
@@ -81,7 +106,7 @@ h1{
 }
 
 
-#list-header{
+#list-sidebar{
     padding: 10px 0;
     color: #6C6F74;
     font-weight: 600;
@@ -100,7 +125,7 @@ ul li a{
     display: inline-block;
 }
 
-#list-header > li > a > div {
+#list-sidebar > li > a > div {
     display: inline-block;
     height: 30px;
 }
@@ -203,4 +228,27 @@ hr{
 .profile-picture img {
     height: 100%;
     border-radius: 50%;
+}
+
+.main-container{
+    padding: 20px;
+}
+
+.grey{
+    color: #6C6F74;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+    padding: 25px 6px 0px 0px;
+}
+
+.btn-upgrade {
+    width: 250px;
+    border-radius: 20px;
+    padding: 11px 0px;
+    border: 1px solid white;
+    background-color: transparent;
+    text-align: center;
 }

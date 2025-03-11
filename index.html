@@ -14,108 +14,128 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <div class="header-container d-flex direction-column justify-between">
-            <div class="top-container">
-                <div id="logo">
-                    <a href="#">
-                        <img src="./img/logo.svg" alt="">
-                    </a>
-                </div>
-                <ul id="list-header">
-                    <li class="border-l-green">
+    <main>
+        <sidebar>
+            <div class="sidebar-container d-flex direction-column justify-between">
+                <div class="top-container">
+                    <div id="logo">
                         <a href="#">
-                            <div><img src="./img/home.svg" alt=""></div>
-                            <div class="list-label">Home</div>
+                            <img src="./img/logo.svg" alt="">
                         </a>
-                    </li>
-                    <li class="border-l-green">
-                        <a href="#">
-                            <div><img src="./img/search.svg" alt=""></div>
-                            <div>Search</div>
-                        </a>
-                    </li>
-                    <li class="border-l-green">
-                        <a href="#">
-                            <div><img src="./img/libreria.svg" alt=""></div>
-                            <div>La tua libreria</div>
-                        </a>
-                    </li>
-                </ul>
-                <div class="playlist">
-                    <div class="playlist-title">PLAYLIST</div>
-                    <ul>
-                        <li>
+                    </div>
+                    <ul id="list-sidebar">
+                        <li class="border-l-green">
                             <a href="#">
-                                <div class="add-playlist">
-                                    <div class="plus">+</div>
-                                </div>
-                                <div>Crea Playlist</div>
+                                <div><img src="./img/home.svg" alt=""></div>
+                                <div class="list-label">Home</div>
                             </a>
                         </li>
-                        <li>
+                        <li class="border-l-green">
                             <a href="#">
-                                <div>Nome Playlist</div>
+                                <div><img src="./img/search.svg" alt=""></div>
+                                <div>Search</div>
                             </a>
                         </li>
-                        <li>
+                        <li class="border-l-green">
                             <a href="#">
-                                <div>Nome Playlist</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div>Nome Playlist</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div>Nome Playlist</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div>Nome Playlist</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div>Nome Playlist</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div>Nome Playlist</div>
+                                <div><img src="./img/libreria.svg" alt=""></div>
+                                <div>La tua libreria</div>
                             </a>
                         </li>
                     </ul>
+                    <div class="playlist">
+                        <div class="playlist-title">PLAYLIST</div>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="add-playlist">
+                                        <div class="plus">+</div>
+                                    </div>
+                                    <div>Crea Playlist</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>Nome Playlist</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>Nome Playlist</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>Nome Playlist</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>Nome Playlist</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>Nome Playlist</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>Nome Playlist</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>Nome Playlist</div>
+                                </a>
+                            </li>
+                        </ul>
+                        </div>
                     </div>
-                </div>
-           
-            
-            <div class="btm-container">
-                <div id="installa">
-                    <div class="download-icon">
-                        <img src="./img/download.svg" alt="">
-                    </div>
-                    <div>
-                        <a href="#">Installa App</a>
-                    </div>
-                </div>  
+               
                 
-                <hr>
-
-                <div id="profile">
-                    <div class="profile-picture">
-                        <img src="./img/profile.svg" alt="">
-                        
+                <div class="btm-container">
+                    <div id="installa">
+                        <div class="download-icon">
+                            <img src="./img/download.svg" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Installa App</a>
+                        </div>
+                    </div>  
+                    
+                    <hr>
+    
+                    <div id="profile">
+                        <div class="profile-picture">
+                            <img src="./img/profile.svg" alt="">
+                            
+                        </div>
+                        <div>John Doe</div>
                     </div>
-                    <div>John Doe</div>
+                </div>         
+            
+            </div>
+        </sidebar>
+        <div class="content">
+            <header>
+                <div class="right">
+                    <div class="btn-upgrade">
+                        <span class="bold">EFFETTUA L'UPGRADE</span>
+                    </div>
                 </div>
-            </div>         
-        
+            </header>
+            <div class="main-container">
+                <div class="menu grey bold d-flex justify-center">
+                    <ul class="d-flex justify-around flex-wrap">
+                        <li>
+                            <a href="#">IN E <span class="green-underline">VIDENZA</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </header>
+    </main>
     
 </body>
 </html>
