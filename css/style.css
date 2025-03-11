@@ -294,3 +294,18 @@ hr{
     padding-top: 20px;
     padding-bottom: 15px;
 }
+
+.main-container span {
+    color: rgb(151, 149, 149);
+    font-weight: 400;
+}
+
+.pop-cards {
+    display: flex;
+    padding-bottom: 50px;
+    gap: 15px;
+}
+
+.pop-cards img{
+    border-radius: 50%;
+}
