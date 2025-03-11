@@ -50,6 +50,10 @@ h1{
     font-weight: 900;
 }
 
+h2{
+    font-size: 40px;
+}
+
 .d-flex{
     display: flex;
 }
@@ -251,4 +255,42 @@ hr{
     border: 1px solid white;
     background-color: transparent;
     text-align: center;
+}
+
+.menu{
+    padding-bottom: 40px;
+}
+
+.main-content-text {
+    padding-bottom: 30px;
+}
+
+.main-content h2{
+    padding-bottom: 5px;
+}
+
+
+.recently-cards {
+    display: flex;
+    padding-bottom: 50px;
+    gap: 15px;
+}
+
+.card {
+    width: calc(100% / 6);
+    text-align: center;
+}
+
+.card-square {
+    position: relative;
+    width: 100%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.main-container h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
